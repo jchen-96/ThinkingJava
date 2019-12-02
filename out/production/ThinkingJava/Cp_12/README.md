@@ -11,12 +11,12 @@ Java异常机制用到的几个关键字：try catch finally throw throws
 * throws --用在方法签名中，用于声明该方法是可能抛出的异常
 
 ### 了解try和catch的基本用法
-[Code](../Code/Demo1.java)
+[Code](Code/Demo1.java)
 在try语句块中有除数为0的操作，该操作会抛出java.lang.ArithmeticException异常。通过catch，对该异常进行捕获。
 观察结果我们发现，并没有执行System.out.println("i="+i)。这说明try语句块发生异常之后，try语句块中的剩余内容就不会再被执行了。
 
 ### 了解finally的基本用法
-[Code](../Code/Demon2.java)
+[Code](Code/Demon2.java)
 
 ### 了解throws和throw的基本用法
-
+[Code](Code/Demo3.java)
