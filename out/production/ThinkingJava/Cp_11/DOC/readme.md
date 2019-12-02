@@ -89,5 +89,15 @@ Collection 是描述所有序列容器共性的根接口，它可能被认为是
 [Code](../Code/IterableClass.java)
 
 ### 11.13.1 适配器方法惯用法
-反向迭代器的能力
+反向迭代器的能力,使用默认的迭代器和自己实现的反向迭代器
 [Code](../Code/AdaptorMethodIdiom.java)
+
+### 11.14 总结
+Java提供了大量持有对象的方式
+* 数组将数字与对象关联起来。它保存类型明确的键值对。它可以使多维的，可以保存基本类型数据。但是，数组一旦生成，其容量就是不能改变的。
+* Collection 存放序列元素，Map存放键值对。容器不能持有基本类型，但是自动包装机制会仔细地执行基本类型到容器中所持有的包装器类型之间的双向转换。
+* 各种Queue 以及栈的行为，由LinkedList提供支持。
+
+* 不要使用过时的Vector,HashTable和Stack
+
+![Container](../Pic/Container.jpg)
