@@ -20,3 +20,4 @@ Java异常机制用到的几个关键字：try catch finally throw throws
 
 ### 了解throws和throw的基本用法
 [Code](Code/Demo3.java)
+

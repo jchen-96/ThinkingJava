@@ -52,5 +52,8 @@ String 类自带了一个非常有用的正则表达式工具 split(),其功能�
 ### 13.7 扫描输入
 Scanner
 
-### 13.7.1 Scanner定界符
+#### 13.7.1 Scanner定界符
 [Code_ScannerDelimiter](Code/ScannerDelimiter.java)
+
+#### 13.7.2
+用正则表达式扫描
